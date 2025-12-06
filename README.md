@@ -11,10 +11,11 @@ Website portofolio pribadi ini dibuat untuk memenuhi tugas mata kuliah Pemrogram
 - CSS3 (Flexbox)
 
 ## Cara Mengakses
-Kunjungi link berikut: [Link GitHub Pages Anda Disini]
+Kunjungi link berikut: https://hcahna.github.io/Hana-Malidha-Hasan_202431057_PemrogramanWeb_Portofolio/
 
 ## Identitas Pembuat
 - Nama: Hana Malidha Hasan
 - NIM: 202431057
 - Kelas: B
+
 - Jurusan: Teknik Informatika

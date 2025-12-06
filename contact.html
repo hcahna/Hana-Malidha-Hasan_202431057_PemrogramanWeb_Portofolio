@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubungi Saya</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h1>Portfolioku</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portofolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section-box">
+            <h2>Form Request Project</h2>
+            <p>Silakan isi form di bawah ini untuk memesan jasa pembuatan website.</p>
+
+            <form action="#" method="POST">
+                <label for="nama">Nama Lengkap:</label>
+                <input autofocus type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="contoh@email.com" required>
+
+                <label for="layanan">Jenis Layanan:</label>
+                <select id="layanan" name="layanan">
+                    <option value="company-profile">Company Profile</option>
+                    <option value="toko-online">Toko Online / E-commerce</option>
+                    <option value="landing-page">Landing Page</option>
+                    <option value="blog">Personal Blog</option>
+                </select>
+
+                <label for="pesan">Deskripsi Proyek:</label>
+                <textarea id="pesan" name="pesan" rows="5" placeholder="Jelaskan kebutuhan website Anda..."></textarea>
+
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <input type="checkbox" id="setuju" name="setuju" style="width: auto;">
+                    <label for="setuju">Saya menyetujui syarat dan ketentuan.</label>
+                </div>
+
+                <button type="submit">Kirim Permintaan</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Hana Malidha Hasan. All rights reserved.</p>
+        <p>Kampus: <a href="https://itpln.ac.id" target="_blank">ITPLN</a></p>
+    </footer>
+
+</body>
+</html>
